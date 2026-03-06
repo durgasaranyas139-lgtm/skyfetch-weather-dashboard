@@ -247,3 +247,17 @@ h1 {
     width: 100px;
     height: 100px;
 }
+/* Style forecast section */
+.forecast-section {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #eee;
+}
+
+/* Style forecast title */
+.forecast-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
