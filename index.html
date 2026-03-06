@@ -8,19 +8,31 @@
 </head>
 <body>
 
+    <!-- Search Section -->
     <div class="search-section">
 
-        <!-- Input field -->
         <input 
             type="text" 
             id="city-input" 
             placeholder="Enter city name..."
         >
 
-        <!-- Search button -->
         <button id="search-btn">🔍 Search</button>
 
     </div>
+
+    <!-- Recent Searches Section -->
+    <div id="recent-searches-section" class="recent-searches-section">
+
+        <h3>Recent Searches</h3>
+
+        <div id="recent-searches-container">
+            <!-- Recent search buttons will appear here -->
+        </div>
+
+    </div>
+
+    <!-- Main Container -->
     <div class="container">
         <h1>🌤️ SkyFetch</h1>
         <p class="tagline">Your Personal Weather Dashboard</p>
@@ -32,32 +44,10 @@
 
     <!-- Axios CDN -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    
-    <!-- Your JavaScript -->
-    <script src="app.js"></script>
-</body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkyFetch - Weather Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>🌤️ SkyFetch</h1>
-        <p class="tagline">Your Personal Weather Dashboard</p>
-        
-        <div id="weather-display">
-            <p class="loading">Loading weather data...</p>
-        </div>
-    </div>
 
-    <!-- Axios CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    
     <!-- Your JavaScript -->
+     <script src="config.js"></script>
     <script src="app.js"></script>
+
 </body>
 </html>
